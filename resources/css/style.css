@@ -39,6 +39,8 @@ a {
 .banner-bg {
   display: flex;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  height: 100%;
+  margin: 0;
   background-size: cover;
   height: 25rem;
   justify-content: center;
@@ -75,6 +77,7 @@ h1 {
 
 .nav-bar {
   display: flex;
+  width: 100%;
   background-color: firebrick;
   justify-content: center;
   padding: 0.75rem;
@@ -84,6 +87,55 @@ h1 {
   display: flex;
   width: 960px;
   justify-content: space-between;
+}
+
+main {
+  display: flex;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  flex-direction: column;
+}
+
+.product-feature {
+  display: flex;
+  width: 960px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.product {
+  display: flex;
+  border: 4px solid black;
+  width: 30%;
+  overflow: hidden;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.product p {
+  background-color: black;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+.product img {
+  height: 9rem;
+  margin: 2rem auto;
+}
+
+.shop-info {
+  display: flex;
+  width: 960px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.info-header {
+  background-color: black;
+}
+
+.black-text {
+  color: black;
 }
 
 footer {
